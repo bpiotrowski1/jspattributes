@@ -5,6 +5,8 @@
     <hr/>
     <p>
         <table class="table table-dark">
+        <th>Nazwa</th>
+        <th>Wartosc</th>
         <tr>
         <%
             Enumeration<String> headerNames = request.getHeaderNames();

@@ -4,11 +4,13 @@
     <hr/>
     <p>
     <table class="table table-dark">
+        <th>Nazwa</th>
+        <th>Wartosc</th>
         <%
             for (Cookie c : request.getCookies()) {
-                  out.print("<tr>");
-                  out.print("<td>" + c.getName() + "</td><td>" + c.getValue() + "</td>");
-                  out.print("</tr>");
+                out.print("<tr>");
+                out.print("<td>" + c.getName() + "</td><td>" + c.getValue() + "</td>");
+                out.print("</tr>");
             }
         %>
     </table>
