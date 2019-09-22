@@ -13,6 +13,8 @@
         <h3 class="masthead-brand"><a href="/">JSP ATTRIBUTES</a></h3>
         <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="/">Main page</a>
+            <a class="nav-link" href="headers.jsp">Headers</a>
+            <a class="nav-link" href="cookies.jsp">Cookies</a>
         </nav>
     </div>
 </header>
