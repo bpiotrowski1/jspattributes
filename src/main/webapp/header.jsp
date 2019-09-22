@@ -15,6 +15,7 @@
             <a class="nav-link" href="/">Main page</a>
             <a class="nav-link" href="headers.jsp">Headers</a>
             <a class="nav-link" href="cookies.jsp">Cookies</a>
+            <a class="nav-link" href="addcookie.jsp">Add cookie</a>
         </nav>
     </div>
 </header>
