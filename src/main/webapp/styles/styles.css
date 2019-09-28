@@ -57,7 +57,7 @@
 .container {
     margin-top: 75px;
     max-width: 58.3em;
-    height: 89.5%;
+    min-height: 78.9%;
 }
 
 .btn {
