@@ -3,13 +3,10 @@
 <%
     String deleteCookieName = request.getParameter("cookieToDelete");
     if(deleteCookieName != null) {
-        for (Cookie c : request.getCookies()) {
-            if(c.getName().equals(deleteCookieName)) {
-                c.setMaxAge(0);
-                response.addCookie(c);
-                response.setHeader("REFRESH", "0");
-            }
-        }
+        Cookie cookie = new Cookie(deleteCookieName, "");
+        cookie.setMaxAge(0);
+        response.addCookie(cookie);
+        response.sendRedirect("cookies.jsp");
     }
 
 %>
